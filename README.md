@@ -17,13 +17,13 @@ The calculator categorises emissions into two types:
 ...Where the both types will be available in _calculation.ipynb_ but only WtW emission is available in _prediction.ipynb_.
 
 There are two types of calculation available. Both types utilises PySpark to account for large-scale data processing for future developments (e.g., recommending best routes based on the current AQI):
-### Direct Calculation (_calculation.ipynb_)
+### Direct Calculation (_calculation.py_)
 This type filters out DataFrame based on inputs to find the _vehicle emission_ and _energy production_ rate. The values are then used to calculate the PM2.5 emissions.
 ```
 ttw = (vehicle_emission*distance)*pow(10, 6)
 wtw = ((vehicle_emission*distance)+(energy_production*distance))*pow(10, 6)
 ```
-### ML Prediction (_prediction.ipynb_)
+### ML Prediction (_prediction.py_)
 This type predicts the PM2.5 emission rate without _vehicle emission_ and _energy production_ rate using RandomForestRegressor.
 ```
 prediction = model.transform(input_df)
