@@ -1,5 +1,5 @@
 # Air Quality Calculator
-This project uses existing data from the __[PM2.5 Footprint Calculator v1.01]([https://openaq.org/](https://www.eg.mahidol.ac.th/dept/egce/pmfootprint/files/1_01/PM2.5%20Footprint%20Calculator%20Report%20v1.01_081221.pdf))__, developed by Mahidol University, Thailand.
+This project uses existing data from the __[PM2.5 Footprint Calculator v1.01](https://www.eg.mahidol.ac.th/dept/egce/pmfootprint/files/1_01/PM2.5%20Footprint%20Calculator%20Report%20v1.01_081221.pdf)__, developed by Mahidol University, Thailand.
 
 The aim of this project is to raise awareness about individuals' PM2.5 emissions and encourage individuals to shift to greener modes of transportation. This can be achieved by integrating into a real-time AQI application already available. The following is an example interface of what our calculator would look like:
 ![example-interface](https://github.com/SUTAMPU/air-quality-calculator/blob/main/example.gif?raw=true)
